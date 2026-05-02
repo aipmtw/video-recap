@@ -38,8 +38,10 @@ if (Test-Path 'public') {
 $zip = Join-Path $root 'deploy.zip'
 if (Test-Path $zip) { Remove-Item $zip -Force }
 
-Write-Host "==> Creating $zip"
-Compress-Archive -Path (Join-Path $bundle '*') -DestinationPath $zip -Force
+Write-Host "==> Creating $zip (POSIX-compliant entries; excludes .env)"
+# Compress-Archive writes Windows backslashes inside zip entries which break
+# extraction on Linux Kudu (rsync exit 23). Use the cross-platform Node helper.
+node scripts/zip-bundle.mjs
 
 Write-Host "==> Deploying to App Service: $SiteName"
 az webapp deploy `

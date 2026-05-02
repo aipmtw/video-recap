@@ -36,8 +36,8 @@ cp -r .next/static "$BUNDLE/.next/static"
 ZIP="$ROOT/deploy.zip"
 rm -f "$ZIP"
 
-echo "==> Creating $ZIP"
-( cd "$BUNDLE" && zip -rq "$ZIP" . )
+echo "==> Creating $ZIP (POSIX-compliant entries; excludes .env)"
+node scripts/zip-bundle.mjs
 
 echo "==> Deploying to App Service: $SITE"
 az webapp deploy \
