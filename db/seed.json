@@ -5,17 +5,25 @@
     "youtube_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
     "channel": "Lenny's Podcast",
     "recap_date": "2026-05-02",
-    "summary": "Cat Wu(Anthropic Claude Code 產品負責人)分享 Anthropic 產品團隊如何在 AI 競賽中維持極快的迭代速度,以及她們如何思考工具型產品的定位與使用者體驗。",
+    "summary": "Cat Wu(Anthropic Claude Code/Cowork 產品負責人)與 Lenny 對談,聚焦 Anthropic 如何把出貨節奏從「以月為單位」壓到「以週、以日為單位」、AI 時代 PM 該長出哪些新能力,以及為什麼她認為 Claude 的「個性」也是產品成功的核心之一。",
     "key_takeaways": [
-      "請於觀看影片後補上 3–5 點重點整理。"
+      "Anthropic 的出貨節奏從月 → 週 → 日,關鍵不在工具,而在使命一致性消除了大公司常見的內部摩擦。",
+      "AI 時代 PM 的新核心能力:會 prompt、會看模型 trace、能評估「品味」這件事,以及和工程師之間的角色變得更模糊。",
+      "要主動做「現在還做不好」的產品,等下一個模型把缺口補上時,你已經先卡好位置。",
+      "Cat 最被低估的 AI 用法:讓模型自己 introspect 它過去的錯誤,而不是只看它最新一次的輸出。",
+      "「Just do things」是 AI 原生公司的核心工作原則——降低需要授權的層級,讓決策貼近工作的人。"
     ],
     "quotes": [
-      "請於觀看影片後補上印象深刻的引言。"
+      "出貨節奏從月變週、變日,真正擋住其他公司的不是技術,是組織的摩擦。",
+      "做你下一代模型才做得好的產品,不是為現在做的。",
+      "PM 最被低估的能力,是讓模型反思自己上次哪裡錯了。"
     ],
     "actionable_notes": [
-      "請於觀看影片後補上可立即執行的行動項目。"
+      "盤點自家產品 backlog,標出三個「現在還做不好,但下一代模型可能就能做」的方向,先放原型佔位。",
+      "把 Claude/GPT 的對話 log 當素材,每週固定挑一段失敗對話請模型自我檢討,寫成 lessons-learned。",
+      "找出團隊中「需要授權才能往下推」的決策,試著把授權層級拉低一階,觀察出貨速度變化。"
     ],
-    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+    "personal_comments": "Anthropic「縮編+使命對齊」這個組合對台灣多數企業很難複製,但「為下一代模型先做產品」可以馬上拿來重新審視自家 roadmap。本筆記取材自 Lenny's Podcast 公開 show notes,引言為意譯,非逐字稿。"
   },
   {
     "slug": "2026-05-claude-code-creator-project-start",
@@ -23,17 +31,26 @@
     "youtube_url": "https://www.youtube.com/watch?v=KWrsLqnB6vA",
     "channel": "Austin Marchese",
     "recap_date": "2026-05-02",
-    "summary": "Claude Code 創始者分享他開啟每個新專案時的固定流程與思考框架,涵蓋從靈感整理到第一次提交程式碼的關鍵步驟。",
+    "summary": "Austin Marchese 整理 Boris Cherny(Claude Code 創始者)每次開新專案的固定流程:從 plan mode 出發、把計畫談到完美才下第一行 code、用一份 CLAUDE.md 累積團隊知識,以及他怎麼用 5 個 terminal tab 同時駕馭多個 Claude,一週推出 20–30 個 PR。",
     "key_takeaways": [
-      "請於觀看影片後補上 3–5 點重點整理。"
+      "每次 session 都從 plan mode 開始;在計畫對齊之前,不讓 Claude 寫任何一行 code。",
+      "計畫談完後,主動請 Claude 用「資深工程師」角度找出這份計畫的缺陷,等於免費的 self-review。",
+      "計畫對了,實作通常 Claude 一次就 one-shot 成功;改 bug 的時間遠遠少於改錯計畫的時間。",
+      "一份 CLAUDE.md 把錯誤記錄、慣例、design guidelines、PR 範本寫清楚,Claude 每次 session 開頭都會讀。",
+      "Boris 平行跑 5 個 Claude(5 個 worktree、5 個 tab),用「計畫驅動」而不是「指令驅動」的方式維持每天 20–30 PR 的節奏。"
     ],
     "quotes": [
-      "請於觀看影片後補上印象深刻的引言。"
+      "AI 解問題很快,但不一定解的是對的問題。",
+      "如果你不先把計畫談對,Claude 會自信地往錯方向衝,做出技術上漂亮、目標完全偏掉的東西。",
+      "重要的不是讓 Claude 寫快,是讓它寫對的東西。"
     ],
     "actionable_notes": [
-      "請於觀看影片後補上可立即執行的行動項目。"
+      "在每個 repo 根目錄放一份 CLAUDE.md,內容至少包含:踩過的雷、命名/風格規範、PR template、設計準則。",
+      "預設每次 Claude session 開頭都進 plan mode,先寫 spec/設計文件再寫 code。",
+      "計畫寫完後,固定加一句:「If you were a senior engineer, what are the flaws in this plan?」",
+      "嘗試開 2–5 個 git worktree 與 terminal tab,觀察一週的 PR 產出能不能翻倍。"
     ],
-    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+    "personal_comments": "對個人 contributor 立刻可用的程度最高的一支。CLAUDE.md 與 plan-first 我這週就會在自己的專案實驗。本筆記取材自第三方整理文章,引言為意譯,非逐字稿。"
   },
   {
     "slug": "2026-05-claude-code-secrets-from-engineers",
@@ -41,17 +58,26 @@
     "youtube_url": "https://www.youtube.com/watch?v=IDSAMqip6ms",
     "channel": "Every",
     "recap_date": "2026-05-02",
-    "summary": "Every 採訪 Anthropic 打造 Claude Code 的工程師團隊,揭露這個 AI 編碼工具背後的設計取捨、開發流程,以及與一般程式助手最不同的設計哲學。",
+    "summary": "Every podcast 邀請 Cat Wu 與 Boris Cherny — Claude Code 兩位創始成員 — 分享他們在 Anthropic 內部 antfooding 真實心得,從 plan mode 的勝率、agent 一口氣跑 30 小時的能力,到「為什麼產品要刻意做得 hackable」。",
     "key_takeaways": [
-      "請於觀看影片後補上 3–5 點重點整理。"
+      "切到 plan mode,複雜任務的成功率可以拉到原本的 2–3 倍。",
+      "現在的 Claude Code 在某些任務上能持續跑 30 小時不中斷;下一代預期會跑到「以天為單位」。",
+      "產品設計上刻意保持簡單與直覺:「不要新的 UX,丟進去就會用」是核心原則。",
+      "把產品做得夠 hackable,讓使用者去 abuse 你原本沒設計的用法 — 早期最大價值往往是這樣被使用者發現的。",
+      "Anthropic 工程團隊每天都用 Claude Code 自己寫 Claude Code(antfood),這是品質回饋最快的迴路。"
     ],
     "quotes": [
-      "請於觀看影片後補上印象深刻的引言。"
+      "在複雜任務上,只要切到 plan mode,成功率可以變 2 到 3 倍。",
+      "我們不想要新的 UX,所有東西都要直覺到一打開就會用。",
+      "把產品做得夠 hackable,讓人可以拿去做你原本沒設計的事。"
     ],
     "actionable_notes": [
-      "請於觀看影片後補上可立即執行的行動項目。"
+      "把「如果這是複雜任務 → 切 plan mode」變成肌肉記憶,寫進團隊 SOP。",
+      "找一個非關鍵但有結構的任務(例如重構某個模組),讓 Claude 連跑數小時,觀察會在哪裡卡。",
+      "為自家工具新增至少一個 hackable surface(例如:子代理、slash command、structured input),邀使用者來「abuse」。",
+      "建立 antfooding 機制:工程師每週至少有一段時間用自家產品做自家工作。"
     ],
-    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+    "personal_comments": "Plan mode 的 2-3x 勝率對團隊推廣最有說服力。「Hackable」這個取捨值得寫進產品 OKR。本筆記取材自 Every podcast show notes,引言為意譯,非逐字稿。"
   },
   {
     "slug": "2026-05-boris-cherny-after-coding-is-solved",
@@ -59,17 +85,27 @@
     "youtube_url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
     "channel": "Lenny's Podcast",
     "recap_date": "2026-05-02",
-    "summary": "Boris Cherny(Anthropic Claude Code 負責人)討論在 AI 幾乎可以完成大部分編碼工作的世界裡,工程師、產品團隊與整個軟體業會如何重新分配價值與精力。",
+    "summary": "Boris Cherny 與 Lenny 對談,從 Claude Code 一年內躍升到佔公開 GitHub commit 4% 的數字談起,延伸到他眼中「coding 大致已被解決後」工程師、產品團隊與整個軟體產業會如何重新分配價值,以及他離開 Anthropic 兩週後又回來的理由。",
     "key_takeaways": [
-      "請於觀看影片後補上 3–5 點重點整理。"
+      "Claude Code 從快速 hack 變成佔公開 GitHub commit 4%,DAU 上個月翻倍。",
+      "反直覺的產品原則:刻意不堆功能、刻意保持簡單,才是成功的真正槓桿。",
+      "Boris 認為 coding 已大致被解決,瓶頸從寫 code 移到 spec、品味、review 與工具設計。",
+      "「給很小的團隊無限的 token」比「給大團隊有限資源」更能做出好的 AI 產品。",
+      "Boris 曾短暫去 Cursor 兩週又回來,理由是 Anthropic 的使命密度與資源密度兩端同時罕見。",
+      "他對每個新進成員都會講三條原則:對齊使命、先寫工具再寫功能、信任自己的品味。"
     ],
     "quotes": [
-      "請於觀看影片後補上印象深刻的引言。"
+      "Coding 已經被大致解決,接下來決勝負的不是寫 code,是知道要寫什麼。",
+      "給小團隊無限 token,比給大團隊更多人,做出來的 AI 產品反而更好。",
+      "我去 Cursor 兩週就回來,因為使命的密度跟資源的密度,很少同時出現在一個地方。"
     ],
     "actionable_notes": [
-      "請於觀看影片後補上可立即執行的行動項目。"
+      "重看自家產品 backlog,把「coding 變便宜後」更應該投資的項目(spec 寫作、品味、review 工具、test infra)排到最前。",
+      "嘗試把 AI 團隊縮編一階,把節省下來的人力換成 token 預算,觀察產出。",
+      "列出三個你還沒命名的 latent demand,做最小的可發布原型驗證。",
+      "為新進團隊成員寫一份「三原則文件」,把你想灌輸的核心觀念顯性化。"
     ],
-    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+    "personal_comments": "「縮編 + 無限 token」這個取捨對成本敏感的台灣團隊特別反直覺,但很值得實驗。本筆記取材自 Lenny's Podcast show notes 與多篇社群整理,引言為意譯,非逐字稿。"
   },
   {
     "slug": "2026-05-boris-cherny-career-anthropic",
@@ -77,17 +113,28 @@
     "youtube_url": "https://www.youtube.com/watch?v=AmdLVWMdjOk",
     "channel": "Ryan Peterman",
     "recap_date": "2026-05-02",
-    "summary": "Boris Cherny 回顧自己職涯的關鍵成長轉折,以及在 Anthropic 從零打造 Claude Code 的過程,包括他如何選題、組建團隊與面對快速變動的 AI 產品環境。",
+    "summary": "Boris Cherny 在 Ryan Peterman 的 The Peterman Pod,完整回顧從 startup → VC → Facebook/Instagram(IC4–IC7)→ Meta IC8(負責全公司 code quality)→ Anthropic 創立 Claude Code 的歷程,以及為什麼他相信「Claude Code 是這條路徑的必然產物」。",
     "key_takeaways": [
-      "請於觀看影片後補上 3–5 點重點整理。"
+      "他刻意不選擇專精,而把自己練成 generalist(寫 code、做產品、做設計、跑 user research),長期看反而是更稀缺的組合。",
+      "用工具放大影響力:在 Facebook 把自己重複出現的 code review 意見直接寫成 lint rule,人就能做別的事。",
+      "從自己重複踩的問題出發,因為通常別人也在踩,做出工具就會被自然採用。",
+      "換時區、換組織後,過去的功績不會跟著過來,信任要重新賺,前 90 天先閉嘴觀察。",
+      "走進管理職後仍堅持每天寫 code,因為直覺與點子都是從 code 裡長出來的。",
+      "主管給他的關鍵建議:「為半年後的模型做產品,不是為今天的模型做。」這句話直接形塑了 Claude Code 的早期方向。",
+      "大公司流程會把人從常識拉開,要刻意回到常識,問:「使用者真正想要的是什麼?」"
     ],
     "quotes": [
-      "請於觀看影片後補上印象深刻的引言。"
+      "你過去做過酷的東西,不代表你現在就有影響力,你要重新賺。",
+      "你應該為半年後的模型做產品,不是為今天的模型做。",
+      "如果你對同一件事 review 過三次,你就應該寫一條 lint rule,而不是 review 第四次。"
     ],
     "actionable_notes": [
-      "請於觀看影片後補上可立即執行的行動項目。"
+      "找出最近一個月你重複留下的同一條 code review 意見,把它變成 lint 規則或腳本。",
+      "在新團隊/新時區先進入「earn trust」模式,設一個 90 天觀察期再開始推大改造。",
+      "設計下個季度的功能時,假設模型半年後變強 2–3 倍,反推現在該做什麼 scaffolding。",
+      "把自己訓練成 generalist:每季挑一個本來不熟的領域(設計、user research、infra)做一次端對端的小專案。"
     ],
-    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+    "personal_comments": "對職涯仍在 IC 段的工程師最有用,特別是「lint 取代第四次 review」與「為半年後的模型做產品」這兩條。本筆記取材自 The Peterman Pod 公開摘要與 developing.dev 文章,引言為意譯。"
   },
   {
     "slug": "2026-05-karpathy-vibe-coding-to-agentic-engineering",
@@ -95,16 +142,27 @@
     "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
     "channel": "Sequoia Capital",
     "recap_date": "2026-05-02",
-    "summary": "Andrej Karpathy 在 Sequoia 的對談中,說明他眼中軟體開發從「vibe coding」進化到「agentic engineering」的路徑,以及未來工程師的角色與工作流程會如何改變。",
+    "summary": "Karpathy 在 Sequoia AI Ascent 2026 與 Stephanie Zhan 的對談中,把 LLM 視為新一層可程式化的計算層,主張軟體開發正從個人寫 code 進入「指揮一群代理人」的 agentic engineering 時代。他同時把過去 70 年的計算演進整理成 Software 1.0 / 2.0 / 3.0 三代,並指出哪些事情仍然只能由人類來做。",
     "key_takeaways": [
-      "請於觀看影片後補上 3–5 點重點整理。"
+      "2025 年 12 月起 agent 工具(尤其是 Claude Code)跨過了一個門檻:生成的 code 區塊變得夠大、夠連貫、夠值得信任。",
+      "Software 1.0 = 明寫 code;2.0 = 訓練權重;3.0 = 用 prompt 與 context 程式化 LLM。「context window 才是新的主要槓桿」。",
+      "可被自動化的範圍取決於可不可以 verify:有自動評分(coding、math、tests)的領域進步最快;沒有的部分仍然 jagged。",
+      "Vibe coding 是「拉高地板」(讓更多人能做出軟體);agentic engineering 是「拉高天花板」(在仍然要顧品質、安全、品味的前提下指揮會犯錯的代理)。",
+      "基礎建設要從「給人按按鈕」轉成「給代理用」:API、CLI、structured logs、機器可讀 schema。",
+      "MenuGen 例子:過去要前端、後端、API、auth、payment 的整個 app,在 Software 3.0 下「大部分直接消失在多模態模型裡」。",
+      "人類不會被外包的部分:spec、oversight、taste、判斷,以及對系統的「理解」本身。"
     ],
     "quotes": [
-      "請於觀看影片後補上印象深刻的引言。"
+      "傳統軟體自動化的是「你能寫清楚的東西」;LLM 與強化學習自動化的是「你能驗證的東西」。",
+      "你可以外包你的思考,但你外包不了你的理解。",
+      "App 的大部分,直接消失在模型裡。"
     ],
     "actionable_notes": [
-      "請於觀看影片後補上可立即執行的行動項目。"
+      "對自家產品做一次 verifiability 檢查:列出每個關鍵任務,標出有沒有可自動驗證的訊號;沒有的話,先補測試或評分機制。",
+      "現有 UI 介面之外,為核心功能補一份 agent-native surface(API/CLI/structured log),讓代理能直接用。",
+      "對下季度的新功能,先想 Software 3.0 版本:能不能直接餵 context 給多模態模型解,而不是再蓋一個傳統 app?",
+      "盤點產品中「現在還做不好但下一代模型可能能解」的點,先做最小 scaffold 佔位。"
     ],
-    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+    "personal_comments": "「raise the floor vs raise the ceiling」這個切分,直接給了一個面對 AI 浪潮的決策框架。對企業 PM 與工程主管最值得反覆讀。本筆記取材自 Karpathy 自己 bearblog 上的整理稿與多篇社群摘要,引言為意譯,非逐字稿。"
   }
 ]
