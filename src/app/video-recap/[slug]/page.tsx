@@ -88,8 +88,11 @@ export default async function RecapPage({ params }: { params: Promise<{ slug: st
       )}
 
       {recap.personal_comments && (
-        <Section title="個人觀點">
+        <Section title="AI 觀點">
           <p>{recap.personal_comments}</p>
+          <p className="mt-3 text-xs text-stone-500">
+            註:此區由 AI 模型(Claude)根據公開 show notes 與第三方整理生成,引言為意譯,非逐字稿。
+          </p>
         </Section>
       )}
     </article>

@@ -23,7 +23,7 @@
       "把 Claude/GPT 的對話 log 當素材,每週固定挑一段失敗對話請模型自我檢討,寫成 lessons-learned。",
       "找出團隊中「需要授權才能往下推」的決策,試著把授權層級拉低一階,觀察出貨速度變化。"
     ],
-    "personal_comments": "Anthropic「縮編+使命對齊」這個組合對台灣多數企業很難複製,但「為下一代模型先做產品」可以馬上拿來重新審視自家 roadmap。本筆記取材自 Lenny's Podcast 公開 show notes,引言為意譯,非逐字稿。"
+    "personal_comments": "「縮編 + 使命對齊 + 高 token 預算」這個組合對台灣多數企業難以照搬,真正可立刻借用的是「為下一代模型先做產品」。重點不在搶快出貨,而在縮短決策授權的鏈長度——出貨慢通常不是工程問題,是組織摩擦問題。"
   },
   {
     "slug": "2026-05-claude-code-creator-project-start",
@@ -50,7 +50,7 @@
       "計畫寫完後,固定加一句:「If you were a senior engineer, what are the flaws in this plan?」",
       "嘗試開 2–5 個 git worktree 與 terminal tab,觀察一週的 PR 產出能不能翻倍。"
     ],
-    "personal_comments": "對個人 contributor 立刻可用的程度最高的一支。CLAUDE.md 與 plan-first 我這週就會在自己的專案實驗。本筆記取材自第三方整理文章,引言為意譯,非逐字稿。"
+    "personal_comments": "六支裡個人 contributor 立刻可用程度最高的一支。CLAUDE.md + plan-first 是兩個低門檻、高槓桿的習慣,任何專案隔天就能落地。Plan mode 真正的價值不是讓 Claude 慢下來,是讓你自己被迫先想清楚要什麼。"
   },
   {
     "slug": "2026-05-claude-code-secrets-from-engineers",
@@ -77,7 +77,7 @@
       "為自家工具新增至少一個 hackable surface(例如:子代理、slash command、structured input),邀使用者來「abuse」。",
       "建立 antfooding 機制:工程師每週至少有一段時間用自家產品做自家工作。"
     ],
-    "personal_comments": "Plan mode 的 2-3x 勝率對團隊推廣最有說服力。「Hackable」這個取捨值得寫進產品 OKR。本筆記取材自 Every podcast show notes,引言為意譯,非逐字稿。"
+    "personal_comments": "「Plan mode 拉高 2-3x 成功率」是團隊推廣 Claude Code 最有說服力的單一數字,值得直接寫進 onboarding。「Hackable 設計」是另一個少見、但對長期產品價值更深的取捨——值得放進產品 OKR,而不是只當成設計風格。"
   },
   {
     "slug": "2026-05-boris-cherny-after-coding-is-solved",
@@ -105,7 +105,7 @@
       "列出三個你還沒命名的 latent demand,做最小的可發布原型驗證。",
       "為新進團隊成員寫一份「三原則文件」,把你想灌輸的核心觀念顯性化。"
     ],
-    "personal_comments": "「縮編 + 無限 token」這個取捨對成本敏感的台灣團隊特別反直覺,但很值得實驗。本筆記取材自 Lenny's Podcast show notes 與多篇社群整理,引言為意譯,非逐字稿。"
+    "personal_comments": "「縮編 + 給足 token」對成本敏感的台灣團隊特別反直覺,但值得做最小規模的實驗。比起「coding 已經解決」這個 catchphrase,更務實的問題是:coding 變便宜後,backlog 裡哪些本來不值得做的事情,現在會變得很值得做?"
   },
   {
     "slug": "2026-05-boris-cherny-career-anthropic",
@@ -134,7 +134,7 @@
       "設計下個季度的功能時,假設模型半年後變強 2–3 倍,反推現在該做什麼 scaffolding。",
       "把自己訓練成 generalist:每季挑一個本來不熟的領域(設計、user research、infra)做一次端對端的小專案。"
     ],
-    "personal_comments": "對職涯仍在 IC 段的工程師最有用,特別是「lint 取代第四次 review」與「為半年後的模型做產品」這兩條。本筆記取材自 The Peterman Pod 公開摘要與 developing.dev 文章,引言為意譯。"
+    "personal_comments": "對 IC 段工程師最實用的兩條:「lint 取代第四次 review」與「為半年後的模型做產品」。前者是當下就能做的工具化動作,後者是設計新功能時的時間槓桿。Generalist 路線的成功,取決於每個跨領域是否都能維持 craft 級的 rigor,不是淺嚐即止。"
   },
   {
     "slug": "2026-05-karpathy-vibe-coding-to-agentic-engineering",
@@ -163,6 +163,6 @@
       "對下季度的新功能,先想 Software 3.0 版本:能不能直接餵 context 給多模態模型解,而不是再蓋一個傳統 app?",
       "盤點產品中「現在還做不好但下一代模型可能能解」的點,先做最小 scaffold 佔位。"
     ],
-    "personal_comments": "「raise the floor vs raise the ceiling」這個切分,直接給了一個面對 AI 浪潮的決策框架。對企業 PM 與工程主管最值得反覆讀。本筆記取材自 Karpathy 自己 bearblog 上的整理稿與多篇社群摘要,引言為意譯,非逐字稿。"
+    "personal_comments": "「Raise the floor vs raise the ceiling」把 vibe coding 跟 agentic engineering 的差別講得很乾淨,可以直接拿來當團隊 AI 工具策略的分類框架。Software 3.0 那段對 PM 與工程主管最有用,值得反覆讀。「verify 才能 automate」也是一個冷門但極好用的判準。"
   }
 ]
