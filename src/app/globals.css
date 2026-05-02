@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-stone-50 text-stone-900;
+    font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif;
+  }
+  article h1, article h2, article h3 {
+    letter-spacing: 0.01em;
+  }
+}
+
+.recap-prose {
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+}
+.recap-prose p { margin-bottom: 1em; }

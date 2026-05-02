@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "2026-05-anthropic-product-team-cat-wu",
+    "title": "How Anthropic's product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
+    "youtube_url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+    "channel": "Lenny's Podcast",
+    "recap_date": "2026-05-02",
+    "summary": "Cat Wu(Anthropic Claude Code 產品負責人)分享 Anthropic 產品團隊如何在 AI 競賽中維持極快的迭代速度,以及她們如何思考工具型產品的定位與使用者體驗。",
+    "key_takeaways": [
+      "請於觀看影片後補上 3–5 點重點整理。"
+    ],
+    "quotes": [
+      "請於觀看影片後補上印象深刻的引言。"
+    ],
+    "actionable_notes": [
+      "請於觀看影片後補上可立即執行的行動項目。"
+    ],
+    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+  },
+  {
+    "slug": "2026-05-claude-code-creator-project-start",
+    "title": "How Claude Code's Creator Starts EVERY Project",
+    "youtube_url": "https://www.youtube.com/watch?v=KWrsLqnB6vA",
+    "channel": "Austin Marchese",
+    "recap_date": "2026-05-02",
+    "summary": "Claude Code 創始者分享他開啟每個新專案時的固定流程與思考框架,涵蓋從靈感整理到第一次提交程式碼的關鍵步驟。",
+    "key_takeaways": [
+      "請於觀看影片後補上 3–5 點重點整理。"
+    ],
+    "quotes": [
+      "請於觀看影片後補上印象深刻的引言。"
+    ],
+    "actionable_notes": [
+      "請於觀看影片後補上可立即執行的行動項目。"
+    ],
+    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+  },
+  {
+    "slug": "2026-05-claude-code-secrets-from-engineers",
+    "title": "The Secrets of Claude Code From the Engineers Who Built It",
+    "youtube_url": "https://www.youtube.com/watch?v=IDSAMqip6ms",
+    "channel": "Every",
+    "recap_date": "2026-05-02",
+    "summary": "Every 採訪 Anthropic 打造 Claude Code 的工程師團隊,揭露這個 AI 編碼工具背後的設計取捨、開發流程,以及與一般程式助手最不同的設計哲學。",
+    "key_takeaways": [
+      "請於觀看影片後補上 3–5 點重點整理。"
+    ],
+    "quotes": [
+      "請於觀看影片後補上印象深刻的引言。"
+    ],
+    "actionable_notes": [
+      "請於觀看影片後補上可立即執行的行動項目。"
+    ],
+    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+  },
+  {
+    "slug": "2026-05-boris-cherny-after-coding-is-solved",
+    "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+    "youtube_url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+    "channel": "Lenny's Podcast",
+    "recap_date": "2026-05-02",
+    "summary": "Boris Cherny(Anthropic Claude Code 負責人)討論在 AI 幾乎可以完成大部分編碼工作的世界裡,工程師、產品團隊與整個軟體業會如何重新分配價值與精力。",
+    "key_takeaways": [
+      "請於觀看影片後補上 3–5 點重點整理。"
+    ],
+    "quotes": [
+      "請於觀看影片後補上印象深刻的引言。"
+    ],
+    "actionable_notes": [
+      "請於觀看影片後補上可立即執行的行動項目。"
+    ],
+    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+  },
+  {
+    "slug": "2026-05-boris-cherny-career-anthropic",
+    "title": "Boris Cherny (Creator of Claude Code) On What Grew His Career And Building at Anthropic",
+    "youtube_url": "https://www.youtube.com/watch?v=AmdLVWMdjOk",
+    "channel": "Ryan Peterman",
+    "recap_date": "2026-05-02",
+    "summary": "Boris Cherny 回顧自己職涯的關鍵成長轉折,以及在 Anthropic 從零打造 Claude Code 的過程,包括他如何選題、組建團隊與面對快速變動的 AI 產品環境。",
+    "key_takeaways": [
+      "請於觀看影片後補上 3–5 點重點整理。"
+    ],
+    "quotes": [
+      "請於觀看影片後補上印象深刻的引言。"
+    ],
+    "actionable_notes": [
+      "請於觀看影片後補上可立即執行的行動項目。"
+    ],
+    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+  },
+  {
+    "slug": "2026-05-karpathy-vibe-coding-to-agentic-engineering",
+    "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering",
+    "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
+    "channel": "Sequoia Capital",
+    "recap_date": "2026-05-02",
+    "summary": "Andrej Karpathy 在 Sequoia 的對談中,說明他眼中軟體開發從「vibe coding」進化到「agentic engineering」的路徑,以及未來工程師的角色與工作流程會如何改變。",
+    "key_takeaways": [
+      "請於觀看影片後補上 3–5 點重點整理。"
+    ],
+    "quotes": [
+      "請於觀看影片後補上印象深刻的引言。"
+    ],
+    "actionable_notes": [
+      "請於觀看影片後補上可立即執行的行動項目。"
+    ],
+    "personal_comments": "本筆記為待補稿,請編輯 db/seed.json 後執行 npm run db:seed 更新內容。"
+  }
+]
